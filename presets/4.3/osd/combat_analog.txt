@@ -14,7 +14,7 @@
 
 set osd_cap_alarm = 0
 set osd_alt_alarm = 0
-set osd_tim1 = 0
+set osd_tim1 = 2
 set osd_vbat_pos = 2433
 set osd_link_quality_pos = 2114
 set osd_rssi_dbm_pos = 2146
