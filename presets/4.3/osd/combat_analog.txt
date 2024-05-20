@@ -29,6 +29,8 @@ set osd_disarmed_pos = 2282
 set osd_canvas_height = 13
 set vcd_video_system = NTSC
 set osd_menu_background = GRAY
+set osd_tim_1_pos = 234
+set osd_mah_drawn_pos = 234
 
 #$ OPTION BEGIN (UNCHECKED): fly time & mah
     set osd_tim_1_pos = 2453
