@@ -1,0 +1,67 @@
+#$ TITLE: Mark4 9inch 2812 900kv"
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: mark4, 2812, 9inch
+#$ AUTHOR: De-Friz
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Mark4 9inch 2812 900kv 6s Gemfan9045-3
+#$ DESCRIPTION: dshot 
+
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+#$ INCLUDE: presets/4.5/filters/defaults.txt
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 60
+# set dyn_notch_count = 1
+# set dyn_notch_max_hz = 650
+
+# -- Dterm filtering --
+set simplified_dterm_filter = OFF
+set dterm_lpf1_dyn_min_hz = 60
+set dterm_lpf1_dyn_max_hz = 120
+set dterm_lpf1_dyn_expo = 6
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf1_static_hz = 60
+set dterm_lpf2_static_hz = 120
+
+# not needed, but to be authentic:
+set simplified_dterm_filter_multiplier = 80
+
+# -- RPM filtering --
+set dshot_bidir = ON
+set rpm_filter_min_hz = 60
+set rpm_filter_fade_range_hz = 0
+
+set simplified_pids_mode = OFF
+set p_pitch = 32
+set i_pitch = 11
+set d_pitch = 26
+set f_pitch = 0
+set p_roll = 31
+set i_roll = 11
+set d_roll = 23
+set f_roll = 0
+set p_yaw = 31
+set i_yaw = 11
+set f_yaw = 0
+set d_min_roll = 23
+set d_min_pitch = 26
+
+# -- Gyro lowpass filters --
+set simplified_gyro_filter_multiplier = 80
+
+# -- TPA --
+# -- Feedforward --
+
+set anti_gravity_gain = 100
+set auto_profile_cell_count = 6
+
+#$ OPTION BEGIN (UNCHECKED): Dshot300 (F4 or BMI)
+    set motor_pwm_protocol = Dshot300
+#$ OPTION END
