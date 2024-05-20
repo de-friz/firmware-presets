@@ -1,4 +1,4 @@
-#$ TITLE: Combat - Analog OSD
+#$ TITLE: Combat OSD - Analog
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
@@ -10,7 +10,7 @@
 #$ PARSER: MARKED
 
 #$ DESCRIPTION: combat osd
-#$ INCLUDE: presets/4.5/osd/defaults.txt
+#$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_vbat_pos = 2434
 set osd_rssi_pos = 2135
@@ -26,3 +26,4 @@ set osd_altitude_pos = 2199
 set osd_warnings_pos = 14602
 set osd_avg_cell_voltage_pos = 2402
 set osd_canvas_height = 13
+set osd_menu_background = GRAY
