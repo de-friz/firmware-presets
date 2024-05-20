@@ -903,8 +903,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/combat_analog.txt",
-      "hash": "67e9a671693c2693d0cc7d9653f34bfc126b405fff6b642f256adc47b1a66307",
-      "title": "Combat - Analog",
+      "hash": "78932af738fa7a5a47f4a790adbf5d74b62b9d692e897fe51c45240cfb3c77ca",
+      "title": "Combat OSD - Analog",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -2845,23 +2845,6 @@
         "viper lite"
       ],
       "author": "sugarK",
-      "priority": 1000000000000
-    },
-    {
-      "fullPath": "presets/4.3/tune/mark4_2812_900_9inch.txt",
-      "hash": "50f4a9405772a1ce5ca9bcedda62699cd37b4004eb3de6728b9d300349c028b8",
-      "title": "Mark4 9inch 2812 900kv\"",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "mark4",
-        "2812",
-        "9inch"
-      ],
-      "author": "De-Friz",
       "priority": 1000000000000
     },
     {
@@ -6998,6 +6981,23 @@
         "tinyTrainer"
       ],
       "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/mark4_2812_900_9inch.txt",
+      "hash": "50f4a9405772a1ce5ca9bcedda62699cd37b4004eb3de6728b9d300349c028b8",
+      "title": "Mark4 9inch 2812 900kv\"",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "mark4",
+        "2812",
+        "9inch"
+      ],
+      "author": "De-Friz",
       "priority": 1000000000000
     },
     {
