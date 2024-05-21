@@ -68,6 +68,11 @@ set simplified_gyro_filter_multiplier = 80
 # -- TPA --
 # -- Feedforward --
 
+# -- Gyro lowpass filters --
+set simplified_gyro_filter_multiplier = 80
+# Applying simplified tuning for gyro filters only
+simplified_tuning apply
+
 set anti_gravity_gain = 100
 set auto_profile_cell_count = 6
 
