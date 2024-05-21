@@ -62,9 +62,6 @@ set f_yaw = 0
 set d_min_roll = 23
 set d_min_pitch = 26
 
-# -- Gyro lowpass filters --
-set simplified_gyro_filter_multiplier = 80
-
 # -- TPA --
 # -- Feedforward --
 
