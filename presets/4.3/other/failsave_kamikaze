@@ -1,0 +1,16 @@
+#$ TITLE: Combat failsave kamikaze
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: failsve
+#$ AUTHOR: De-Friz
+#$ DESCRIPTION: failsave kamikaze
+
+rxfail 3 h
+set failsafe_delay = 200
+set failsafe_off_delay = 200
+set failsafe_throttle = 1650
+set failsafe_throttle_low_delay = 300
+set failsafe_procedure = AUTO-LAND
