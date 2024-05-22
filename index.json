@@ -903,7 +903,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/combat_analog.txt",
-      "hash": "78932af738fa7a5a47f4a790adbf5d74b62b9d692e897fe51c45240cfb3c77ca",
+      "hash": "458eb0af2292fb2deaab4432fd6a2644c3a4fa267c67531146a3a5cc64bf8604",
       "title": "Combat OSD - Analog",
       "firmware_version": [
         "4.3",
@@ -6985,7 +6985,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/mark4_2812_900_9inch.txt",
-      "hash": "50f4a9405772a1ce5ca9bcedda62699cd37b4004eb3de6728b9d300349c028b8",
+      "hash": "c7fb715be179dcdb7c385da182f08cf7c5140afec7fcacd3adb504290e8adc38",
       "title": "Mark4 9inch 2812 900kv\"",
       "firmware_version": [
         "4.5"
