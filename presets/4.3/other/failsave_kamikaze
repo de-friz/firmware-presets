@@ -4,7 +4,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: failsve
+#$ KEYWORDS: failsave
 #$ AUTHOR: De-Friz
 #$ DESCRIPTION: failsave kamikaze
 
