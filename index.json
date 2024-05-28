@@ -344,6 +344,7 @@
       "expert",
       "express",
       "Extreme",
+      "failsave",
       "feisar",
       "filter",
       "filtering",
@@ -1026,6 +1027,23 @@
         "utility"
       ],
       "author": "Daniel Appel / Tehllama",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/failsave_kamikaze.txt",
+      "hash": "87278bfc318f0c7446933d7e7d67e6905a7a1aa007625ad24d934c00e85c0585",
+      "title": "Combat failsave kamikaze",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "failsave"
+      ],
+      "author": "De-Friz",
       "priority": 0
     },
     {
