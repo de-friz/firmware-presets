@@ -169,6 +169,7 @@
       "Evan Turner (Headsup)",
       "Feisar",
       "Foxeer Harvey",
+      "FPV_Cam",
       "FPVian",
       "Garban",
       "IllusionFpv",
@@ -231,6 +232,7 @@
       "3.5",
       "3.5in",
       "3\"",
+      "3115",
       "3d",
       "3in",
       "3S",
@@ -260,6 +262,7 @@
       "7",
       "7 inch",
       "7\"",
+      "75mm",
       "7in",
       "8\"",
       "8in",
@@ -276,6 +279,7 @@
       "air unit",
       "akk",
       "AlexFPV",
+      "aluminum",
       "analog",
       "antonig",
       "AOS",
@@ -362,6 +366,7 @@
       "freestyle",
       "freesytle",
       "freetyle",
+      "FreshBread",
       "frsky",
       "fx2",
       "Garban",
@@ -543,10 +548,12 @@
       "ultra",
       "ultra 1000",
       "ultralite",
+      "underground",
       "unify",
       "unify pro",
       "upside down",
       "utility",
+      "UWL",
       "vanover",
       "very",
       "very clean",
@@ -6858,6 +6865,23 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/gypsy_aluminum_10inch.txt",
+      "hash": "f5ae49ff4a4bfd40d1241248875b947043a0fad3bd1892e5e8bcf74f05f52998",
+      "title": "Gypsy aluminum 10inch 3115 900kv\"",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "aluminum",
+        "3115",
+        "9inch"
+      ],
+      "author": "De-Friz",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/karate/karate_brushless_whoop.txt",
       "hash": "bc815c1e9ac388e3c0a223f27a8ea049ec698e4ebabf6f37d44706412d1903e3",
       "title": "Karate brushless whoop",
@@ -7543,6 +7567,29 @@
         "whoop"
       ],
       "author": "UAV Tech (Mark Spatz)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/UWL-FreshBread.txt",
+      "hash": "ef4ad868fe928e79126e9d3ec7100bdd736cf22f6f4436401c5d276168c70dd4",
+      "title": "UWL 75mm Whoop Tune by FreshBread",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "UWL",
+        "underground",
+        "Whoop",
+        "75mm",
+        "tune",
+        "acro",
+        "1S",
+        "FreshBread"
+      ],
+      "author": "FPV_Cam",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
