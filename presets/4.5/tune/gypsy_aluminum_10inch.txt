@@ -1,13 +1,13 @@
-#$ TITLE: Mark4 9inch 2812 900kv"
+#$ TITLE: Gypsy aluminum 10inch 3115 900kv"
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: mark4, 2812, 9inch
+#$ KEYWORDS: aluminum, 3115, 9inch
 #$ AUTHOR: De-Friz
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: Mark4 9inch 2812 900kv 6s Gemfan9045-3
+#$ DESCRIPTION: Gypsy aluminum 10inch 3115 900kv 6s Gemfan1050-3
 #$ DESCRIPTION: dshot 
 
 #$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
@@ -17,49 +17,49 @@
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_q = 500
-set dyn_notch_min_hz = 60
+set dyn_notch_min_hz = 65
+set dyn_notch_max_hz = 200
 # set dyn_notch_count = 1
-# set dyn_notch_max_hz = 650
 
 # -- Dterm filtering --
-set simplified_dterm_filter_multiplier = 80
 set simplified_dterm_filter = ON
-set dterm_lpf1_dyn_min_hz = 60
-set dterm_lpf1_dyn_max_hz = 120
-set dterm_lpf1_dyn_expo = 6
+set simplified_dterm_filter_multiplier = 95
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_dyn_min_hz = 71
+set dterm_lpf1_dyn_max_hz = 142
 set dterm_lpf1_type = BIQUAD
-set dterm_lpf1_static_hz = 60
-set dterm_lpf2_static_hz = 120
+set dterm_lpf1_static_hz = 71
+set dterm_lpf2_static_hz = 142
 
 # -- PID simplified sliders --
 set simplified_pids_mode = RPY
-set simplified_master_multiplier = 70
-set simplified_i_gain = 30
-set simplified_d_gain = 110
-set simplified_pi_gain = 120
+set simplified_master_multiplier = 100
+set simplified_i_gain = 15
+set simplified_d_gain = 70
+set simplified_pi_gain = 60
 set simplified_dmax_gain = 0
-set simplified_feedforward_gain = 0
-set simplified_pitch_d_gain = 100
-set simplified_pitch_pi_gain = 100
+set simplified_feedforward_gain = 20
+set simplified_pitch_d_gain = 95
+set simplified_dterm_filter_multiplier = 95
 
 # -- RPM filtering --
 set dshot_bidir = ON
-set rpm_filter_min_hz = 60
-set rpm_filter_fade_range_hz = 0
+set rpm_filter_min_hz = 75
+set rpm_filter_fade_range_hz = 10
 
-set p_pitch = 39
-set i_pitch = 21
-set d_pitch = 26
-set f_pitch = 0
-set p_roll = 37
-set i_roll = 20
-set d_roll = 23
-set f_roll = 0
-set p_yaw = 37
-set i_yaw = 20
-set f_yaw = 0
-set d_min_roll = 23
-set d_min_pitch = 26
+set p_pitch = 28
+set i_pitch = 7
+set d_pitch = 22
+set f_pitch = 24
+set p_roll = 26
+set i_roll = 7
+set d_roll = 21
+set f_roll = 23
+set p_yaw = 26
+set i_yaw = 7
+set f_yaw = 23
+set d_min_roll = 21
+set d_min_pitch = 22
 
 # -- TPA --
 # -- Feedforward --
@@ -69,7 +69,7 @@ set simplified_gyro_filter_multiplier = 80
 # Applying simplified tuning for gyro filters only
 simplified_tuning apply
 
-set anti_gravity_gain = 100
+set anti_gravity_gain = 114
 set auto_profile_cell_count = 6
 
 #$ OPTION BEGIN (UNCHECKED): Dshot300 (F4 or BMI)
