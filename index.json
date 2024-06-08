@@ -209,6 +209,7 @@
       "1000Hz",
       "100euro",
       "10in",
+      "10inch",
       "111hz",
       "150Hz",
       "15Hz",
@@ -413,6 +414,7 @@
       "loRanger",
       "lr5",
       "mamba",
+      "manta",
       "Marek",
       "mark4",
       "mck",
@@ -911,7 +913,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/combat_analog.txt",
-      "hash": "458eb0af2292fb2deaab4432fd6a2644c3a4fa267c67531146a3a5cc64bf8604",
+      "hash": "b27f8df32720c0209f315ff2fb25a1dfec6c8e5d2fbeb7764c68ba9b3fe4b065",
       "title": "Combat OSD - Analog",
       "firmware_version": [
         "4.3",
@@ -5112,6 +5114,23 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/tune/manta10.txt",
+      "hash": "958639401962b3ff2c342e798adacb988e3967e27c94cc06f3a80e52aa3c4138",
+      "title": "Axisflying Manta 10 X Lite 10inch FPV",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "manta",
+        "3115",
+        "10inch"
+      ],
+      "author": "De-Friz",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/minchan_2022_race.txt",
       "hash": "de8aa3e2543980a85b356f689874ed8a990c8a807b530441e5dd935125453354",
       "title": "MinChan 2022 Race 6s 5\"",
@@ -7027,7 +7046,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/mark4_2812_900_9inch.txt",
-      "hash": "13ebd015df5edad8cceaf62e3a417ef80f174fe007b2c58d51668a2e1dddda99",
+      "hash": "f9cedf85cfbfaf2f5745b67338560f7f386bcfc8220f4d879b722291fdde2d32",
       "title": "Mark4 9inch 2812 900kv\"",
       "firmware_version": [
         "4.5"
