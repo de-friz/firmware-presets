@@ -456,6 +456,7 @@
       "pro32",
       "profile",
       "Pure Race",
+      "pushi",
       "quaddiction",
       "quick",
       "R9",
@@ -5271,6 +5272,23 @@
       ],
       "author": "mouseFPV",
       "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/pushi10_10x45.txt",
+      "hash": "da584846507780cb7fed68b705a6bbc865ec943fc7ec8c048d495fef91b3e9f9",
+      "title": "PUSHI 10  HQProp10x45x3",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "pushi",
+        "3115",
+        "10inch"
+      ],
+      "author": "De-Friz",
       "priority": 1000000000000
     },
     {
