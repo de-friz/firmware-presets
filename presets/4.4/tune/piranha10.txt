@@ -12,6 +12,11 @@
 #$ DESCRIPTION: <img src="https://optim.tildacdn.com/tild3963-3736-4366-b566-666264346130/-/format/webp/IMG_3782.JPEG" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
 #$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
 
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.4/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
 # -- Gyro lowpass filters --
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0

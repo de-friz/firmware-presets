@@ -12,6 +12,9 @@
 #$ DESCRIPTION: <img src="https://www.vsdmotor.com/uploads/37415/10inch-fpv-drone4d7c6.jpg" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
 #$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
 
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+
 # -- Gyro lowpass filters --
 set gyro_hardware_lpf = NORMAL
 set gyro_lpf1_type = PT1
