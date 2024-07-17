@@ -265,6 +265,7 @@
       "7\"",
       "75mm",
       "7in",
+      "7inch",
       "8\"",
       "8in",
       "8S",
@@ -387,6 +388,7 @@
       "HighKV",
       "hot",
       "HV",
+      "iflight",
       "IllusionFpv",
       "immersion",
       "immersionRC",
@@ -2693,6 +2695,22 @@
       "author": "Ivan Efimov (Limon)",
       "force_options_review": true,
       "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/Chimera7_Pro_V2.txt",
+      "hash": "da4ada7c4966a4a7e428ab07bc9420a3fcba1f47077706ea3bcda9538ef7d9dc",
+      "title": "Chimera7 Pro V2",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "7inch"
+      ],
+      "author": "De-Friz",
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/ctzsnooze_5in_4S_race.txt",
@@ -5117,7 +5135,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/manta10.txt",
-      "hash": "958639401962b3ff2c342e798adacb988e3967e27c94cc06f3a80e52aa3c4138",
+      "hash": "d342e968464313fb595338ffebdd837120a872ce38263e37d7950ebd46a1829f",
       "title": "Axisflying Manta 10 X Lite 10inch FPV",
       "firmware_version": [
         "4.4"
@@ -5277,7 +5295,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/piranha10.txt",
-      "hash": "8490f96e8a265f6a26a7cafe9cda4893cee915f7aed4f22d89a79641ff5614d5",
+      "hash": "1ab6e3f735df7f25a385a01e9b7289000c65f5bd6f631dd3fa4325fa7637e534",
       "title": "Пиранья 10 Gemfan10x5x3",
       "firmware_version": [
         "4.4"
@@ -5293,7 +5311,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/pushi10_10x45.txt",
-      "hash": "29594aaf68b6461c6c46e5086be95fd4e3080f7a79f6b3e27bb05f66c58c0bfb",
+      "hash": "a81f7bfbe3e1f39eba97a0b61a924e70e7bc05ed15542a63e793e6e8bd5f7d2f",
       "title": "PUSHI 10  HQProp10x45x3",
       "firmware_version": [
         "4.4"

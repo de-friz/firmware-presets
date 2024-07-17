@@ -1,0 +1,130 @@
+#$ TITLE: Chimera7 Pro V2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: iflight, 7inch
+#$ AUTHOR: De-Friz
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Chimera7 Pro V2 <b>HQProp7.5x3.7x3</b></br>
+#$ DESCRIPTION: <a href="https://shop.iflight.com/Chimera7-Pro-V2-6S-Pro1947">Производитель</a>
+#$ DESCRIPTION: <img src="https://iflight.oss-cn-hongkong.aliyuncs.com/store/product/Chimera7-Pro/Chimera7-Pro-V2-BNF/Chimera7-V2-Analog-T1.png" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
+#$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
+
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- Gyro lowpass filters --
+set gyro_hardware_lpf = NORMAL
+set gyro_lpf1_type = PT1
+set gyro_lpf1_static_hz = 200
+set gyro_lpf2_type = PT1
+set gyro_lpf2_static_hz = 0
+
+# -- Gyro lowpass Dynamic filters --
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set gyro_lpf1_dyn_expo = 5
+
+# -- Gyro Static Notches --
+set gyro_notch1_hz = 0
+set gyro_notch1_cutoff = 0
+set gyro_notch2_hz = 0
+set gyro_notch2_cutoff = 0
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 3
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 80
+set dyn_notch_max_hz = 500
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_dyn_max_hz = 157
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_type = PT1
+set dterm_lpf1_static_hz = 63
+set dterm_lpf2_type = PT1
+set dterm_lpf2_static_hz = 127
+set dterm_notch_hz = 0
+set dterm_notch_cutoff = 0
+
+# -- RPM filtering --
+set rpm_filter_harmonics = 3
+set rpm_filter_q = 500
+set rpm_filter_min_hz = 90
+set rpm_filter_fade_range_hz = 50
+set rpm_filter_lpf_hz = 150
+
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 50
+
+# -- PID values --
+set p_pitch = 99
+set i_pitch = 88
+set d_pitch = 110
+set f_pitch = 142
+set p_roll = 86
+set i_roll = 76
+set d_roll = 88
+set f_roll = 124
+set p_yaw = 100
+set i_yaw = 120
+set d_yaw = 0
+set f_yaw = 76
+
+# -- PID Sliders --
+set simplified_pids_mode = RP
+set simplified_master_multiplier = 160
+set simplified_i_gain = 50
+set simplified_d_gain = 170
+set simplified_pi_gain = 120
+set simplified_dmax_gain = 25
+set simplified_feedforward_gain = 65
+set simplified_pitch_d_gain = 110
+set simplified_pitch_pi_gain = 110
+set simplified_dterm_filter = ON
+set simplified_dterm_filter_multiplier = 85
+
+# -- PIDsum limits --
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+# -- TPA --
+set tpa_rate = 50
+set tpa_breakpoint = 1200
+set tpa_mode = D
+
+# -- Feedforward --
+set feedforward_transition = 0
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+set feedforward_boost = 15
+set feedforward_max_rate_limit = 90
+
+# -- Dyn Idle --
+set dyn_idle_min_rpm = 0
+set dyn_idle_p_gain = 50
+set dyn_idle_i_gain = 50
+set dyn_idle_d_gain = 50
+set dyn_idle_max_increase = 150
+
+# -- Antigravity --
+set anti_gravity_mode = SMOOTH
+set anti_gravity_threshold = 250
+set anti_gravity_gain = 2000
+
+# -- I-Relax --
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 10
+set iterm_windup = 85
+set iterm_limit = 400
+
+# -- De-Friz --
+set craft_name = De-Friz
+set osd_craft_name_pos = 2090
