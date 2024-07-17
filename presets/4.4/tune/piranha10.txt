@@ -1,0 +1,72 @@
+#$ TITLE: Пиранья 10 Gemfan10x5x3 
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: PIRANHA, 10inch
+#$ AUTHOR: De-Friz
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Пиранья 10 <b>Gemfan10x5x3</b></br>
+#$ DESCRIPTION: <a href="https://piranhafpv.ru/">Производитель</a>
+#$ DESCRIPTION: <img src="https://optim.tildacdn.com/tild3963-3736-4366-b566-666264346130/-/format/webp/IMG_3782.JPEG" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
+#$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
+
+# -- Gyro lowpass filters --
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+
+# -- Gyro lowpass Dynamic filters --
+set gyro_lpf1_dyn_min_hz = 0
+
+# -- Gyro Static Notches --
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_min_hz = 74
+set dyn_notch_max_hz = 900
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_expo = 7
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf2_type = BIQUAD
+set dterm_notch_hz = 140
+set dterm_notch_cutoff = 60
+
+# -- PID Sliders --
+set p_pitch = 61
+set i_pitch = 32
+set d_pitch = 71
+set f_pitch = 113
+set p_roll = 58
+set i_roll = 31
+set d_roll = 70
+set f_roll = 109
+set p_yaw = 58
+set i_yaw = 31
+set f_yaw = 109
+set d_min_roll = 70
+set d_min_pitch = 71
+set d_max_gain = 0
+set simplified_master_multiplier = 130
+set simplified_i_gain = 30
+set simplified_d_gain = 180
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 70
+set simplified_pitch_d_gain = 90
+
+# -- TPA --
+
+# -- Feedforward --
+set feedforward_smooth_factor = 0
+set feedforward_jitter_factor = 15
+set feedforward_boost = 5
+
+# -- Dyn Idle --
+
+# -- Antigravity --
+
+# -- I-Relax --
+
+# -- De-Friz --
+set craft_name = De-Friz
+set osd_craft_name_pos = 2090

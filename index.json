@@ -453,6 +453,7 @@
       "Passthrough",
       "pid",
       "PIDtoolbox",
+      "PIRANHA",
       "pro32",
       "profile",
       "Pure Race",
@@ -5275,8 +5276,24 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/tune/piranha10.txt",
+      "hash": "8490f96e8a265f6a26a7cafe9cda4893cee915f7aed4f22d89a79641ff5614d5",
+      "title": "Пиранья 10 Gemfan10x5x3",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "PIRANHA",
+        "10inch"
+      ],
+      "author": "De-Friz",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/pushi10_10x45.txt",
-      "hash": "da584846507780cb7fed68b705a6bbc865ec943fc7ec8c048d495fef91b3e9f9",
+      "hash": "29594aaf68b6461c6c46e5086be95fd4e3080f7a79f6b3e27bb05f66c58c0bfb",
       "title": "PUSHI 10  HQProp10x45x3",
       "firmware_version": [
         "4.4"
