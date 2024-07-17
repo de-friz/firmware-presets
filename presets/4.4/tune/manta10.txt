@@ -9,6 +9,8 @@
 
 #$ DESCRIPTION:
 #$ DESCRIPTION: <img src="https://images.51microshop.com/14152/product/20231207/Axisflying_Manta_10_X_Lite_10inch_FPV_BNF_Long_Range_Heavy_Payload_Cinematic_Drone_1701914183375_0.jpg" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/>
+#$ INCLUDE: presets/4.4/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # -- Gyro lowpass filters --
 set gyro_hardware_lpf = NORMAL
