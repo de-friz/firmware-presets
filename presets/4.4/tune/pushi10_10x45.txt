@@ -7,8 +7,10 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: <img src="https://www.vsdmotor.com/uploads/37415/10inch-fpv-drone4d7c6.jpg" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/>
-#$ DESCRIPTION: <a href="https://rutube.ru/video/private/3c5bfe2b82f454557db8a430787d3fb1/?p=Iq-JNiRgITy0ByX1pt-abw">demo</a>
+#$ DESCRIPTION: PUSHI10 <b>HQProp10x45x3</b></br>
+#$ DESCRIPTION: <a href="https://rutube.ru/video/private/3c5bfe2b82f454557db8a430787d3fb1/?p=Iq-JNiRgITy0ByX1pt-abw">Видео</a> тестирования с нагрузкой
+#$ DESCRIPTION: <img src="https://www.vsdmotor.com/uploads/37415/10inch-fpv-drone4d7c6.jpg" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
+#$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
 
 # -- Gyro lowpass filters --
 set gyro_hardware_lpf = NORMAL
@@ -79,14 +81,14 @@ set dyn_idle_d_gain = 50
 set dyn_idle_max_increase = 150
 
 # -- Antigravity --
-set anti_gravity_gain = 79
+set anti_gravity_gain = 95
 set anti_gravity_cutoff_hz = 4
 set anti_gravity_p_gain = 100
 
 # -- I-Relax --
 set iterm_relax = RP
 set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 8
+set iterm_relax_cutoff = 11
 set iterm_windup = 85
 
 # -- De-Friz --
