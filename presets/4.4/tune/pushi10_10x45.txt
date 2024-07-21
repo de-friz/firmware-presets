@@ -15,84 +15,77 @@
 #$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
 #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
 
-# -- Gyro lowpass filters --
-set gyro_hardware_lpf = NORMAL
-set gyro_lpf1_type = PT1
-set gyro_lpf1_static_hz = 162
-set gyro_lpf2_type = PT1
-set gyro_lpf2_static_hz = 325
+#$ INCLUDE: presets/4.4/tune/defaults_tune_filters.txt
+#$ INCLUDE: presets/4.4/tune/defaults.txt
 
-# -- Gyro lowpass Dynamic filters --
-set gyro_lpf1_dyn_min_hz = 225
-set gyro_lpf1_dyn_max_hz = 450
-set gyro_lpf1_dyn_expo = 5
+
+###### Filters
+
+set gyro_hardware_lpf = NORMAL
+
+# -- Gyro lowpass filters --
+#set gyro_lpf1_dyn_min_hz = 162
+#set gyro_lpf1_dyn_max_hz = 325
+#set gyro_lpf2_static_hz = 325
+
+# -- Gyro sliders --
+set simplified_gyro_filter = ON
+set simplified_gyro_filter_multiplier = 65
 
 # -- Gyro Static Notches --
-set gyro_notch1_hz = 0
-set gyro_notch1_cutoff = 0
-set gyro_notch2_hz = 0
-set gyro_notch2_cutoff = 0
+set gyro_notch1_hz = 130
+set gyro_notch1_cutoff = 90
+set gyro_notch2_hz = 230
+set gyro_notch2_cutoff = 180
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 4
 set dyn_notch_q = 500
-set dyn_notch_min_hz = 60
-set dyn_notch_max_hz = 600
+set dyn_notch_min_hz = 150
+
+# -- RPM filtering --
+set dshot_bidir = ON
+set rpm_filter_min_hz = 50
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 60
-set dterm_lpf1_dyn_max_hz = 120
-set dterm_lpf1_dyn_expo = 5
 set dterm_lpf1_type = BIQUAD
-set dterm_lpf1_static_hz = 60
-set dterm_lpf2_type = PT1
-set dterm_lpf2_static_hz = 120
-set dterm_notch_hz = 0
-set dterm_notch_cutoff = 0
 
-# -- PID Sliders --
-set simplified_pids_mode = RPY
-set simplified_master_multiplier = 115
-set simplified_i_gain = 30
-set simplified_d_gain = 120
-set simplified_pi_gain = 75
-set simplified_dmax_gain = 40
-set simplified_feedforward_gain = 0
-set simplified_pitch_d_gain = 75
-set simplified_pitch_pi_gain = 95
+set dterm_notch_hz = 260
+set dterm_notch_cutoff = 150
+
+# -- Dterm sliders --
 set simplified_dterm_filter = ON
 set simplified_dterm_filter_multiplier = 80
 
-# -- TPA --
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 0
+
+# -- Accelerometer lowpass --
+set acc_lpf_hz = 25
+
+
+# -- PID Settings --
+# -- PID Sliders (default) --
+set simplified_pids_mode = RPY
+set simplified_master_multiplier = 95
+set simplified_i_gain = 30
+set simplified_d_gain = 130
+set simplified_pi_gain = 75
+set simplified_dmax_gain = 10
+set simplified_feedforward_gain = 40
+set simplified_pitch_d_gain = 75
+set simplified_pitch_pi_gain = 95
+
+# -- iTerm relax (default) --
+set iterm_relax_cutoff = 7
+
+# -- TPA (default) --
 set tpa_mode = PD
-set tpa_rate = 65
-set tpa_breakpoint = 1350
 
-# -- Feedforward --
-set feedforward_transition = 0
-set feedforward_averaging = OFF
-set feedforward_smooth_factor = 25
-set feedforward_jitter_factor = 7
-set feedforward_boost = 15
-set feedforward_max_rate_limit = 90
+# -- Antigravity (default) --
+set anti_gravity_gain = 93
 
-# -- Dyn Idle --
-set dyn_idle_min_rpm = 10
-set dyn_idle_p_gain = 50
-set dyn_idle_i_gain = 50
-set dyn_idle_d_gain = 50
-set dyn_idle_max_increase = 150
-
-# -- Antigravity --
-set anti_gravity_gain = 95
-set anti_gravity_cutoff_hz = 4
-set anti_gravity_p_gain = 100
-
-# -- I-Relax --
-set iterm_relax = RP
-set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 11
-set iterm_windup = 85
+simplified_tuning apply
 
 # -- De-Friz --
 set craft_name = De-Friz
