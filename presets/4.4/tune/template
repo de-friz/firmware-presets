@@ -21,7 +21,7 @@
 
 ###### Filters
 
-set gyro_hardware_lpf = NORMAL
+#set gyro_hardware_lpf = NORMAL
 
 # -- Gyro lowpass filters --
 #set gyro_lpf1_type = PT1
