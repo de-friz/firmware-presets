@@ -453,6 +453,7 @@
       "pandarc",
       "partial",
       "Passthrough",
+      "pchela",
       "pid",
       "PIDtoolbox",
       "PIRANHA",
@@ -7276,6 +7277,23 @@
       ],
       "author": "JazzMutant",
       "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/pchela10_v1.txt",
+      "hash": "a6f0dfaa4a6372cfde81890ba37343e4329227c9470afb5e81b8344aeae889a1",
+      "title": "Пчела10 v1",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "pchela",
+        "3115",
+        "10inch"
+      ],
+      "author": "De-Friz",
       "priority": 1000000000000
     },
     {
