@@ -1,0 +1,80 @@
+#$ TITLE: Пчела10 v1
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: pchela, 3115, 10inch
+#$ AUTHOR: De-Friz
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Пчела10 v1</br>
+#$ DESCRIPTION: 3115 900KV <b>Gemfan 1050</b></br>
+#$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
+
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+#$ INCLUDE: presets/4.5/filters/defaults.txt
+
+
+###### Filters
+
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 350
+
+set gyro_lpf1_dyn_min_hz = 175
+set gyro_lpf1_dyn_max_hz = 350
+
+set dshot_bidir = ON
+
+set simplified_gyro_filter_multiplier = 70
+
+set dterm_lpf1_dyn_min_hz = 60
+set dterm_lpf1_dyn_max_hz = 120
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf1_static_hz = 60
+set dterm_lpf2_static_hz = 120
+
+set simplified_dterm_filter_multiplier = 80
+
+### PIDs ###
+
+set iterm_relax_cutoff = 4
+
+set p_pitch = 35
+set i_pitch = 59
+set d_pitch = 42
+set f_pitch = 0
+set p_roll = 33
+set i_roll = 57
+set d_roll = 37
+set f_roll = 0
+set p_yaw = 33
+set i_yaw = 57
+set d_yaw = 0
+set f_yaw = 0
+
+set d_min_roll = 31
+set d_min_pitch = 35
+set d_min_yaw = 0
+set d_max_gain = 37
+set d_max_advance = 20
+
+set dyn_idle_min_rpm = 10
+
+set simplified_master_multiplier = 100
+set simplified_i_gain = 95
+set simplified_d_gain = 105
+set simplified_pi_gain = 75
+set simplified_dmax_gain = 55
+set simplified_feedforward_gain = 0
+set simplified_pitch_d_gain = 100
+set simplified_pitch_pi_gain = 100
+
+set tpa_mode = PD
+
+simplified_tuning apply
+
+# -- De-Friz --
+#set craft_name = De-Friz
+#set osd_craft_name_pos = 2090
