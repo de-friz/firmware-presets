@@ -1,4 +1,4 @@
-#$ TITLE: Gypsy aluminum 10inch 3115 900kv"
+#$ TITLE: Gypsy aluminum 10inch 3115 900kv
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL

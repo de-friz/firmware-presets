@@ -6939,8 +6939,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/gypsy_aluminum_10inch.txt",
-      "hash": "f5ae49ff4a4bfd40d1241248875b947043a0fad3bd1892e5e8bcf74f05f52998",
-      "title": "Gypsy aluminum 10inch 3115 900kv\"",
+      "hash": "65c8c44bd03ec94a23cf9222df50b7e296a0306a38b4bfbb5c017e77237aa30b",
+      "title": "Gypsy aluminum 10inch 3115 900kv",
       "firmware_version": [
         "4.5"
       ],
@@ -7100,8 +7100,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/mark4_2812_900_9inch.txt",
-      "hash": "f9cedf85cfbfaf2f5745b67338560f7f386bcfc8220f4d879b722291fdde2d32",
-      "title": "Mark4 9inch 2812 900kv\"",
+      "hash": "7f8078eab81e471867cf8a962282efc2afd81fd6f94c89f043841046761d7827",
+      "title": "Mark4 9inch 2812 900kv",
       "firmware_version": [
         "4.5"
       ],
