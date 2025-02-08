@@ -550,6 +550,7 @@
       "Team Black Sheep",
       "Texas",
       "thicc",
+      "tiger",
       "tiny",
       "tiny tank",
       "TinyApe",
@@ -7644,6 +7645,23 @@
         "7\""
       ],
       "author": "SupaflyFPV",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/tigr_v2.txt",
+      "hash": "3e95ed54ca72d44c897dbc6425959a9ff8c3353e2505ddeb8e1abc2658a4fd24",
+      "title": "TIGR 9 V2 GEMFUN 9x43x3",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tiger",
+        "2812",
+        "9inch"
+      ],
+      "author": "De-Friz",
       "priority": 1000000000000
     },
     {
