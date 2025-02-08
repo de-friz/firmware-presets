@@ -1,4 +1,4 @@
-#$ TITLE: TIGR 9 V2 GEMFUN 9x43x3 
+#$ TITLE: TIGR9 V2 2812 Gemfan 9045
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
@@ -7,7 +7,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: TIGER 9 V2 <b>GEMFUN 9x43x3</b></br>
+#$ DESCRIPTION: TIGER 9 V2 <b>Gemfan Cinelifter 9045</b></br>
 #$ DESCRIPTION: 9 inch, Brother Hobby Avenger 2812 900KV, 
 #$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
 
