@@ -7649,8 +7649,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/tigr_v2.txt",
-      "hash": "3e95ed54ca72d44c897dbc6425959a9ff8c3353e2505ddeb8e1abc2658a4fd24",
-      "title": "TIGR 9 V2 GEMFUN 9x43x3",
+      "hash": "5d8610b3290fd00904cf00425a6bf7283f983066fb4d272bc222dc813faf8b68",
+      "title": "TIGR9 V2 2812 Gemfan 9045",
       "firmware_version": [
         "4.5"
       ],
