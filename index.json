@@ -157,6 +157,7 @@
       "antonig",
       "Armando Gallegos (Mondo)",
       "AyyyKayyy - Anthony Knight",
+      "Baklagan",
       "Benjamin Freelove",
       "benlumley",
       "Betaflight",
@@ -536,6 +537,7 @@
       "StreetLeague",
       "suagrK",
       "sub 250",
+      "sud",
       "sugar k",
       "sugarK",
       "Supafly",
@@ -587,6 +589,7 @@
       "viper lite",
       "vista",
       "Voltage",
+      "vt40",
       "vt5804",
       "vt5804bat",
       "vtx",
@@ -7907,6 +7910,24 @@
       ],
       "author": "FPV_Cam",
       "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/VT40.txt",
+      "hash": "13c9a7d42c43cdbf029f8c03eaba80d1386ebed6aaefaa76c2753dc75194022a",
+      "title": "Судный день ВТ40 9x5x3 SZ 1.2",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "vt40",
+        "sud",
+        "2812",
+        "9inch"
+      ],
+      "author": "Baklagan",
       "priority": 1000000000000
     },
     {
