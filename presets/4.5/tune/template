@@ -56,6 +56,9 @@ set dterm_lpf2_static_hz = 150
 set dterm_notch_hz = 0
 set dterm_notch_cutoff = 0
 
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 55
+
 set yaw_lowpass_hz = 100
 
 set rpm_filter_harmonics = 3
