@@ -31,6 +31,7 @@ set osd_canvas_height = 13
 set osd_menu_background = GRAY
 set osd_tim_1_pos = 234
 set osd_mah_drawn_pos = 234
+set osd_warnings_pos = 14632
 
 #$ OPTION_GROUP BEGIN: This group name
     #$ OPTION BEGIN (UNCHECKED): время и mAh
@@ -40,4 +41,7 @@ set osd_mah_drawn_pos = 234
     #$ OPTION BEGIN (UNCHECKED): данные VTX  
         set osd_vtx_channel_pos = 2101
     #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): отключить предупреждения  
+        set osd_warnings_pos = 341
+    #$ OPTION END    
 #$ OPTION_GROUP END
