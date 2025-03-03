@@ -157,7 +157,6 @@
       "antonig",
       "Armando Gallegos (Mondo)",
       "AyyyKayyy - Anthony Knight",
-      "Baklagan",
       "Benjamin Freelove",
       "benlumley",
       "Betaflight",
@@ -1066,7 +1065,7 @@
     },
     {
       "fullPath": "presets/4.3/other/failsave_kamikaze.txt",
-      "hash": "bc94c33cfb6bbfb688ddffd00fd47b18b1f6719979624a2e36621d291bccde37",
+      "hash": "6f3e9f6fccf494da69dbc594899ed9b9fad82dbd114c84f8f27d7adcdafa740c",
       "title": "Combat failsave kamikaze",
       "firmware_version": [
         "4.3",
@@ -7914,7 +7913,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/VT40.txt",
-      "hash": "96efc89913e3fb723383552e02707f115a4b8243b56dfe4def722f3232da0ca6",
+      "hash": "172d086491ca8e4143efd5cbc76c0c72902964366a4e967d9bad071482b230a7",
       "title": "Судный день ВТ40 9x5x3 SZ 1.2",
       "firmware_version": [
         "4.5"
@@ -7927,7 +7926,7 @@
         "2812",
         "9inch"
       ],
-      "author": "Baklagan",
+      "author": "De-Friz",
       "priority": 1000000000000
     },
     {

@@ -3,11 +3,12 @@
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: vt40, sud, 2812, 9inch
-#$ AUTHOR: Baklagan
+#$ AUTHOR: De-Friz
 
 #$ PARSER: MARKED
 
 #$ DESCRIPTION: Судный день ВТ40 <b>9x5x3 SZ</b></br>
+#$ DESCRIPTION: by </b>Baklagan</br>
 #$ DESCRIPTION: <a href="https://t.me/smirnov_evgen">техподдержка в телеге</a>
 
 #$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
