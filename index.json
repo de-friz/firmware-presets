@@ -326,6 +326,7 @@
       "clean",
       "clear",
       "colour change",
+      "combat",
       "Configure",
       "control",
       "Crossfire",
@@ -6511,6 +6512,23 @@
         "100euro"
       ],
       "author": "antonig",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/combat_preset.txt",
+      "hash": "3110a3fc27d75aafc3e5ab62a8776b586246abd5e52abd71f984ea82aa41d3b4",
+      "title": "Nagim combat preset",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "combat"
+      ],
+      "author": "De-Friz",
       "priority": 0
     },
     {
