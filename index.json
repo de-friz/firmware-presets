@@ -939,7 +939,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/combat_analog.txt",
-      "hash": "5b4289a91bfcfc5ab9e9a09db3c59759e56cd3b89dd3c37efbc1537722729d6a",
+      "hash": "8ee2839dcefe86f55c887ea6142352bb1e094d0d603f6b43d71a66d7e8a15ab7",
       "title": "Combat OSD - Analog",
       "firmware_version": [
         "4.3",
@@ -7914,7 +7914,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/VT40.txt",
-      "hash": "13c9a7d42c43cdbf029f8c03eaba80d1386ebed6aaefaa76c2753dc75194022a",
+      "hash": "96efc89913e3fb723383552e02707f115a4b8243b56dfe4def722f3232da0ca6",
       "title": "Судный день ВТ40 9x5x3 SZ 1.2",
       "firmware_version": [
         "4.5"

@@ -10,7 +10,8 @@
 #$ PARSER: MARKED
 
 #$ DESCRIPTION: combat osd
-#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ DESCRIPTION: by Nagim
+#$ INCLUDE: presets/4.4/osd/defaults.txt
 
 set osd_cap_alarm = 0
 set osd_alt_alarm = 0
@@ -31,7 +32,12 @@ set osd_menu_background = GRAY
 set osd_tim_1_pos = 234
 set osd_mah_drawn_pos = 234
 
-#$ OPTION BEGIN (UNCHECKED): fly time & mah
-    set osd_tim_1_pos = 2453
-    set osd_mah_drawn_pos = 2337
-#$ OPTION END
+#$ OPTION_GROUP BEGIN: This group name
+    #$ OPTION BEGIN (UNCHECKED): время и mAh
+        set osd_tim_1_pos = 2453
+        set osd_mah_drawn_pos = 2337
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): данные VTX  
+        set osd_vtx_channel_pos = 2101
+    #$ OPTION END
+#$ OPTION_GROUP END
