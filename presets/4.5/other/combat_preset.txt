@@ -1,0 +1,21 @@
+#$ TITLE: Nagim combat preset 
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: combat
+#$ AUTHOR: De-Friz
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: combat osd
+#$ DESCRIPTION: by Nagim
+#$ INCLUDE: presets/4.3/osd/combat_analog.txt
+#$ INCLUDE: presets/4.3/other/failsave_kamikaze.txt
+#$ INCLUDE: presets/4.3/other/modes.txt
+
+rxfail 2 h
+set osd_warnings_pos = 341
+set osd_mah_drawn_pos = 2337
+set failsafe_procedure = DROP
