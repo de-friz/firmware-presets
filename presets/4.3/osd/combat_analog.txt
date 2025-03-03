@@ -10,11 +10,11 @@
 #$ PARSER: MARKED
 
 #$ DESCRIPTION: combat osd
-#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ DESCRIPTION: by Nagim
+#$ INCLUDE: presets/4.4/osd/defaults.txt
 
 set osd_cap_alarm = 0
 set osd_alt_alarm = 0
-set osd_tim1 = 2
 set osd_vbat_pos = 2433
 set osd_link_quality_pos = 2114
 set osd_rssi_dbm_pos = 2146
@@ -30,8 +30,22 @@ set osd_canvas_height = 13
 set osd_menu_background = GRAY
 set osd_tim_1_pos = 234
 set osd_mah_drawn_pos = 234
+set osd_warnings_pos = 14632
 
-#$ OPTION BEGIN (UNCHECKED): fly time & mah
-    set osd_tim_1_pos = 2453
-    set osd_mah_drawn_pos = 2337
+#$ OPTION BEGIN (UNCHECKED): добавить данные VTX  
+    set osd_vtx_channel_pos = 2101
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): отключить предупреждения  
+    set osd_warnings_pos = 341
+#$ OPTION END
+
+#$ OPTION_GROUP BEGIN: Демаскирующие признаки
+    #$ OPTION BEGIN (UNCHECKED): время полета
+        set osd_tim_1_pos = 2453
+        set osd_tim1 = 2
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): израсходованные mAh
+        set osd_mah_drawn_pos = 2337
+    #$ OPTION END 
+#$ OPTION_GROUP END

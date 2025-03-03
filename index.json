@@ -157,7 +157,6 @@
       "antonig",
       "Armando Gallegos (Mondo)",
       "AyyyKayyy - Anthony Knight",
-      "Baklagan",
       "Benjamin Freelove",
       "benlumley",
       "Betaflight",
@@ -939,7 +938,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/combat_analog.txt",
-      "hash": "5b4289a91bfcfc5ab9e9a09db3c59759e56cd3b89dd3c37efbc1537722729d6a",
+      "hash": "d794f291e04d6be7c76bbfbbf697f54772d0977c0128aa7f1454d75f146fc225",
       "title": "Combat OSD - Analog",
       "firmware_version": [
         "4.3",
@@ -1066,7 +1065,7 @@
     },
     {
       "fullPath": "presets/4.3/other/failsave_kamikaze.txt",
-      "hash": "bc94c33cfb6bbfb688ddffd00fd47b18b1f6719979624a2e36621d291bccde37",
+      "hash": "6f3e9f6fccf494da69dbc594899ed9b9fad82dbd114c84f8f27d7adcdafa740c",
       "title": "Combat failsave kamikaze",
       "firmware_version": [
         "4.3",
@@ -7914,7 +7913,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/VT40.txt",
-      "hash": "13c9a7d42c43cdbf029f8c03eaba80d1386ebed6aaefaa76c2753dc75194022a",
+      "hash": "172d086491ca8e4143efd5cbc76c0c72902964366a4e967d9bad071482b230a7",
       "title": "Судный день ВТ40 9x5x3 SZ 1.2",
       "firmware_version": [
         "4.5"
@@ -7927,7 +7926,7 @@
         "2812",
         "9inch"
       ],
-      "author": "Baklagan",
+      "author": "De-Friz",
       "priority": 1000000000000
     },
     {
