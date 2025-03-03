@@ -1102,6 +1102,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/other/modes.txt",
+      "hash": "2581e4caae749ea908c5a31f1a6932ff70b5ab53473fdbce056a528faa67d45b",
+      "title": "Combat modes (режимы)",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "modes"
+      ],
+      "author": "De-Friz",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/reset_blackbox.txt",
       "hash": "c2791cc94bf8dcd84e5581b76074a126df6db87b8d1eb08d707b10a9801e426a",
       "title": "Reset 4.3 Blackbox settings",
