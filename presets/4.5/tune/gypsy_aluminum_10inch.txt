@@ -7,9 +7,9 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: Рама "Цыган" алюминевая
-#$ DESCRIPTION: Моторы 3115 900kv
-#$ DESCRIPTION: Пропеллеры Gemfan1050-3
+#$ DESCRIPTION: Рама "Цыган" алюминевая<br/>
+#$ DESCRIPTION: Моторы 3115 900kv<br/>
+#$ DESCRIPTION: Пропеллеры Gemfan1050-3<br/>
 #$ DESCRIPTION: <img src="https://de-friz.gitbook.io/~gitbook/image?url=https%3A%2F%2F3980438728-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTCyX4XSZ9bg1yxQ4R9Ya%252Fuploads%252FIjEBJoOQv6aR1OXoqlus%252Friko.jpg%3Falt%3Dmedia%26token%3D614b48ba-4ff3-447a-b7e5-01d5e3056cc0&width=300&dpr=2&quality=100&sign=d25ae1ca&sv=2" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
 
 #$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
