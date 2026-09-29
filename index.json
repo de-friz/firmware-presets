@@ -540,6 +540,7 @@
       "Protos",
       "Pure Race",
       "pushi",
+      "pvh",
       "quaddiction",
       "quick",
       "R9",
@@ -10462,7 +10463,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/VT40.txt",
-      "hash": "da67b38d6628323e54b68c268ec3a558042cf9e0735fe5016273098d8b976780",
+      "hash": "44940197c56af8b022ca3bdaf8c4ff736630f185252e20b815d1a15bc0788358",
       "title": "Судный день ВТ40 9x5x3 SZ 1.2",
       "firmware_version": [
         "4.5"
@@ -11506,6 +11507,21 @@
         "pchela",
         "3115",
         "10inch"
+      ],
+      "author": "De-Friz",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/pvh2.txt",
+      "hash": "7946d5e774a15dcaaeceee5be2d7ad5fd4eaf34994d97d8bb7461a25a4dc0788",
+      "title": "ПВХ2 17x8x3",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "pvh"
       ],
       "author": "De-Friz",
       "priority": 1000000000000
